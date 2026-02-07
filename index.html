@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="kotak">
+    <h1>To Do List</h1>
+    <div class="input-row">
+      <label for="Date">Date</label>
+      <input type="date" id="Date"> 
+      <label for="Task">Task</label>
+      <input type="text" id="Task">
+      <input type="button" value="Add" id="addBtn">
+    </div>
+    <div id="warning"></div>
+  <div class="list-title-row">
+  <div class="filter-group">
+    <button id="filter-btn" class="filter-btn">Filter</button>
+    <div id="filter-menu" class="filter-menu" style="display:none;">
+      <button id="filter-near" class="filter-menu-btn">Tanggal Terdekat</button>
+      <button id="filter-far" class="filter-menu-btn">Tanggal Terlama</button>
+    </div>
+  </div>
+  <div class="list-title">Daftar To Do List</div>
+</div>
+    <ul id="list"></ul>
+  </div>
+  <div class="marquee-container">
+    <div class="marquee">
+      <!-- gambar marquee di sini -->
+    </div>
+  </div>
+  <script src="Js/Js.js"></script>
+</body>
+</html>
